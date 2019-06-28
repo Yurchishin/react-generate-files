@@ -6,9 +6,9 @@ Install:
 
 You can run:
 
-### `rtg "type" "name"`
+### `rtg generate "type" "name"`
 
-rtgconfig.json example:
+rgfconfig.json example:
 
      {
        "components": {

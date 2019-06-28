@@ -5,7 +5,7 @@ const {errorLog} = require('../utils/log')
 
 module.exports.commanderGenerator = async (type, name) => {
   try {
-    const configFilePath = resolve(process.cwd(), 'rtgconfig.json')
+    const configFilePath = resolve(process.cwd(), 'rgfconfig.json')
 
     const jsonConfig = await readFileSync(configFilePath, 'utf8')
 

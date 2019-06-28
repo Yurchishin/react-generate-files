@@ -2,7 +2,7 @@
 
 Install:
 
-### `npm i -g react-generate-files`
+### `npm i -D react-generate-files`
 
 You can run:
 

@@ -3,7 +3,7 @@ const {errorLog, successLog} = require('../utils/log')
 
 module.exports.generateFile = (dirName, name, fileConfig) => {
   try {
-    const fileName = `${dirName}/${fileConfig.name.replace('$NAME$', name)}.tsx`
+    const fileName = `${dirName}/${fileConfig.name.replace('$NAME$', name)}`
     appendFileSync(fileName, fileConfig.content.replace('$NAME$', name))
     successLog(`'${fileName}' created.`)
   } catch (error) {

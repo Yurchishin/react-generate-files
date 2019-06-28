@@ -5,7 +5,7 @@
   "author": "Yurchishin",
   "license": "ISC",
   "bin": {
-    "rtg": "src/index.js"
+    "rgf": "src/index.js"
   },
   "keywords": [
     "typescript",

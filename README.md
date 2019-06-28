@@ -6,7 +6,7 @@ Install:
 
 You can run:
 
-### `rtg generate "type" "name"`
+### `rgf generate "type" "name"`
 
 rgfconfig.json example:
 
